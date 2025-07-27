@@ -7,6 +7,6 @@ and clear tasks with Simple and clean layout using tkinter
 
 2. 🧮 Calculator (GUI)
 A basic arithmetic calculator with: Functional buttons for
-digits and operations and Real-time display of input/output with 
-Clean layout designed with tkinter Grid system which 
-Supports addition, subtraction, multiplication, and division
+digits and operations and Real-time display of input/output which 
+Supports addition, subtraction, multiplication, and division with 
+Clean layout designed with tkinter Grid system 
