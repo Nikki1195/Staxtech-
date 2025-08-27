@@ -18,7 +18,7 @@ def calci():
         display.insert(0, str(ans))
         preview_label.config(text="")  # Clear preview after equal
     except Exception:
-        display.delete(0, tk.END)
+        display.delete(0, tr.END)
         display.insert(0, "Error")
         preview_label.config(text="")
 
@@ -74,7 +74,7 @@ for (text, row, col) in buttons:
         continue
     else:
         btn = tr.Button(root, text=text, font=("Arial", 13),
-                        bg="white", fg="black", command=lambda t=text: on_click(t))
+                        bg="white", fg="black", command=lambda t=text: click(t))
     btn.grid(row=row, column=col, padx=3, pady=3, sticky="nsew")
 
 # 0 button
