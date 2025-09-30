@@ -77,10 +77,10 @@ for (text, row, col) in buttons:
                         bg="white", fg="black", command=lambda t=text: click(t))
     btn.grid(row=row, column=col, padx=3, pady=3, sticky="nsew")
 
-# 0 button
-zero= tr.Button(root, text='0', font=("Arial", 13),
-                     bg="white", fg="black", command=lambda: on_click('0'))
-zero.grid(row=7, column=1, columnspan=2, padx=3, pady=3, sticky="nsew")
+# 00 button
+double_zero = tr.Button(root, text='00', font=("Arial", 13),
+                     bg="white", fg="black", command=lambda: click('00'))
+double_zero.grid(row=7, column=1, columnspan=2, padx=3, pady=3, sticky="nsew")
 
 # Grid adjustments
 for i in range(8):
